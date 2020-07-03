@@ -1,0 +1,131 @@
+﻿<Window x:Class="win"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Election Results!" Height="768" Width="1390" Icon="/VotingApp;component/Images/vote2.ico" ResizeMode="CanResize" xmlns:my="http://schemas.microsoft.com/winfx/2006/xaml/presentation/ribbon" WindowStartupLocation="CenterScreen" WindowState="Maximized" Name="win">
+    <Window.Background>
+        <ImageBrush ImageSource="/VotingApp;component/Images/bg41.jpg" />
+    </Window.Background>
+    <Grid Name="bnd">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="42*" />
+            <RowDefinition Height="687*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="686*" />
+            <ColumnDefinition Width="682*" />
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="#97FFFFFF" Height="668" HorizontalAlignment="Left" Margin="-8,44,0,0" Name="Rectangle1" Stroke="Black" VerticalAlignment="Top" Width="1402" Grid.ColumnSpan="2" Grid.Row="1" />
+        <my:RibbonGroup CanAddToQuickAccessToolBarDirectly="False" Height="97" HorizontalAlignment="Right" Margin="0,-18,-26,0" Name="banner" VerticalAlignment="Top" Width="1420" Grid.ColumnSpan="2" Grid.RowSpan="2">
+            <my:RibbonGroup.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF0BF8C" Offset="0" />
+                    <GradientStop Color="#6EFFFFFF" Offset="1" />
+                </LinearGradientBrush>
+            </my:RibbonGroup.Background>
+            <my:RibbonGroup.ContextMenu>
+                <ContextMenu IsEnabled="False" Visibility="Hidden" />
+            </my:RibbonGroup.ContextMenu>
+        </my:RibbonGroup>
+        <Label Content="Election Result!!!" FontFamily="Adobe Caslon Pro" FontSize="35" FontWeight="Normal" Foreground="Black" Height="49" HorizontalAlignment="Left" Margin="556,20,0,0" Name="vifarnet" Target="{Binding}" VerticalAlignment="Top" Width="256" Grid.ColumnSpan="2" Grid.RowSpan="2" />
+        <TextBlock FontFamily="Segoe Script" FontSize="25" Height="39" HorizontalAlignment="Left" Margin="110,66,0,0" Name="TextBlock1" Text="Class Representatives" TextAlignment="Left" VerticalAlignment="Top" Width="284" Grid.Row="1" />
+        <TextBlock FontFamily="Palatino Linotype" FontSize="25" Height="39" HorizontalAlignment="Left" Margin="94,113,0,0" Name="TextBlock2" Text="Girls" TextAlignment="Left" VerticalAlignment="Top" Width="66" Grid.Row="1" />
+        <TextBlock FontFamily="Palatino Linotype" FontSize="25" Height="39" HorizontalAlignment="Left" Margin="348,113,0,0" Name="TextBlock3" Text="Boys" TextAlignment="Left" VerticalAlignment="Top" Width="94" Grid.Row="1" />
+        <TextBlock FontFamily="Segoe Script" FontSize="25" Height="39" HorizontalAlignment="Right" Margin="0,68,421,0" Name="TextBlock4" Text="Cultural Representatives" TextAlignment="Left" VerticalAlignment="Top" Width="340" Grid.ColumnSpan="2" Grid.Row="1" />
+        <TextBlock FontFamily="Segoe Script" FontSize="25" Height="39" HorizontalAlignment="Left" Margin="376,68,0,0" Name="TextBlock5" Text="Sports Representatives" TextAlignment="Left" VerticalAlignment="Top" Width="298" Grid.Column="1" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="16,158,0,0" Name="gcr1" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="179" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="283,158,224,0" Name="bcr1" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="179" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="16,195,0,0" Name="gcr2" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="179" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="283,195,224,0" Name="bcr2" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="179" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="16,232,0,0" Name="gcr3" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="179" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="283,232,224,0" Name="bcr3" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="179" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="16,269,491,0" Name="gcr4" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="283,269,224,0" Name="bcr4" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="179" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="16,306,491,0" Name="gcr5" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="283,306,224,0" Name="bcr5" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="179" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="16,343,491,0" Name="gcr6" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="283,343,224,0" Name="bcr6" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="179" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="201,158,441,0" Name="cgcr1" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="201,195,441,0" Name="cgcr2" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="201,232,441,0" Name="cgcr3" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="201,269,441,0" Name="cgcr4" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="201,306,441,0" Name="cgcr5" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="201,343,441,0" Name="cgcr6" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="468,158,174,0" Name="cbcr1" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="468,195,174,0" Name="cbcr2" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="468,232,174,0" Name="cbcr3" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="468,306,174,0" Name="cbcr5" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="468,343,174,0" Name="cbcr6" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="662,158,505,0" Name="gcl1" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="201" Grid.ColumnSpan="2" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="662,195,505,0" Name="gcl2" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="201" Grid.ColumnSpan="2" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="662,232,505,0" Name="gcl3" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="201" Grid.ColumnSpan="2" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="662,269,505,0" Name="gcl4" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="201" Grid.ColumnSpan="2" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="662,306,505,0" Name="gcl5" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="201" Grid.ColumnSpan="2" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="662,343,505,0" Name="gcl6" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="201" Grid.ColumnSpan="2" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="183,232,455,0" Name="cgcl3" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="183,269,455,0" Name="cgcl4" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="183,306,455,0" Name="cgcl5" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="183,343,455,0" Name="cgcl6" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="410,158,71,0" Name="gsr1" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="201" Grid.Column="1" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="410,195,71,0" Name="gsr2" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="201" Grid.Column="1" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="410,232,71,0" Name="gsr3" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="201" Grid.Column="1" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="410,269,71,0" Name="gsr4" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="201" Grid.Column="1" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="410,306,71,0" Name="gsr5" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="201" Grid.Column="1" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="410,343,71,0" Name="gsr6" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="201" Grid.Column="1" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="617,158,21,0" Name="cgsr1" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="617,195,21,0" Name="cgsr2" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="617,232,21,0" Name="cgsr3" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="617,269,21,0" Name="cgsr4" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="617,306,21,0" Name="cgsr5" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="617,343,21,0" Name="cgsr6" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" />
+        <ProgressBar Height="3" HorizontalAlignment="Left" IsIndeterminate="True" Margin="0,40,0,0" Name="ProgressBar1" Orientation="Horizontal" RenderTransformOrigin="0.5,0.5" Value="100" VerticalAlignment="Top" Width="1366" Grid.ColumnSpan="2" Grid.Row="1">
+            <ProgressBar.Background>
+                <SolidColorBrush />
+            </ProgressBar.Background>
+            <ProgressBar.BorderBrush>
+                <SolidColorBrush />
+            </ProgressBar.BorderBrush>
+            <ProgressBar.Foreground>
+                <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                    <GradientStop Color="Transparent" Offset="0" />
+                    <GradientStop Color="#FFFF6200" Offset="1" />
+                    <GradientStop Color="Gold" Offset="0.5" />
+                </LinearGradientBrush>
+            </ProgressBar.Foreground>
+            <ProgressBar.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1" />
+                    <SkewTransform />
+                    <RotateTransform />
+                    <TranslateTransform />
+                </TransformGroup>
+            </ProgressBar.RenderTransform>
+        </ProgressBar>
+        <Label Content="And the winners are...." FontFamily="Gabriola" FontSize="45" FontWeight="Normal" Margin="0,417,0,178" Name="Label11" Foreground="Black" Grid.Row="1" Grid.ColumnSpan="2" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"></Label>
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="183,195,455,0" Name="cgcl2" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="183,158,455,0" Name="cgcl1" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" />
+        <TextBlock Background="#5FE2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="468,269,174,0" Name="cbcr4" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Row="1" />
+        <Button BorderBrush="Maroon" Content="Reset Counters" Cursor="Hand" FontFamily="Segoe UI" FontSize="20" FontStyle="Normal" FontWeight="Normal" Height="43" HorizontalAlignment="Left" Margin="10,605,0,0" Name="rst" VerticalAlignment="Top" Width="245" Grid.Column="1" Grid.Row="1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#05FFFFFF" Offset="0" />
+                    <GradientStop Color="#FFB82727" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBlock FontSize="18" Foreground="#CF000000" Height="28" HorizontalAlignment="Left" Margin="431,31,0,0" Name="textBlock6" Text="©2013 Aravind &amp; Akshith" VerticalAlignment="Top" Width="218" Grid.Column="1" Grid.RowSpan="2" />
+        <Button BorderBrush="DarkGreen" Content="Save Results" Cursor="Hand" FontFamily="Segoe UI" FontSize="20" FontStyle="Normal" FontWeight="Normal" Height="43" HorizontalAlignment="Left" Margin="433,605,0,0" Name="save" VerticalAlignment="Top" Width="245" IsDefault="False" Grid.Row="1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#05FFFFFF" Offset="0" />
+                    <GradientStop Color="#FF54B827" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBlock FontFamily="Harrington" FontSize="32" Height="46" Margin="-4,490,362,0" Name="w1" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Row="1" FontWeight="Normal" FontStyle="Normal"><TextBlock.Background><LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0"><GradientStop Color="Transparent" Offset="0" /><GradientStop Color="#FF278BB8" Offset="1" /></LinearGradientBrush></TextBlock.Background></TextBlock>
+        <TextBlock FontFamily="Harrington" FontSize="32" Height="46" Margin="6,490,0,0" Name="w3" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" Width="328" FontWeight="Normal" FontStyle="Normal"><TextBlock.Background><LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0"><GradientStop Color="Transparent" Offset="0" /><GradientStop Color="#FF278BB8" Offset="1" /></LinearGradientBrush></TextBlock.Background></TextBlock>
+        <TextBlock FontFamily="Harrington" FontSize="32" Height="46" Margin="353,490,1,0" Name="w4" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" FontWeight="Normal" FontStyle="Normal"><TextBlock.Background><LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0"><GradientStop Color="Transparent" Offset="0" /><GradientStop Color="#FF278BB8" Offset="1" /></LinearGradientBrush></TextBlock.Background></TextBlock>
+        <TextBlock FontFamily="Harrington" FontSize="32" Height="46" Margin="0,490,14,0" Name="w2" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Row="1" HorizontalAlignment="Right" Width="328" FontWeight="Normal" FontStyle="Normal"><TextBlock.Background><LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0"><GradientStop Color="Transparent" Offset="0" /><GradientStop Color="#FF278BB8" Offset="1" /></LinearGradientBrush></TextBlock.Background></TextBlock>
+        <TextBlock FontFamily="Palatino Linotype" FontSize="20" Height="39" HorizontalAlignment="Left" Margin="4,5,0,0" Name="TextBlock10" Text="Election Date:" TextAlignment="Left" VerticalAlignment="Top" Width="128" Grid.RowSpan="2" />
+        <TextBlock FontFamily="Palatino Linotype" FontSize="23" Grid.RowSpan="2" Height="39" HorizontalAlignment="Left" Margin="4,32,0,0" Text="08 Sep 2013" TextAlignment="Left" VerticalAlignment="Top" Width="241" Name="dte" FontStyle="Italic" FontWeight="Bold" />
+    </Grid>
+</Window>

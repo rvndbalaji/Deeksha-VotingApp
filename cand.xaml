@@ -1,0 +1,97 @@
+﻿<Window x:Class="cand"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Add/Remove Candidates" Height="768" Width="1366" WindowStartupLocation="CenterScreen" WindowState="Maximized" Name="cand" Icon="/VotingApp;component/Images/vote2.ico">
+    <Window.Background>
+        <ImageBrush ImageSource="/VotingApp;component/Images/bg32.jpg" />
+    </Window.Background>
+    <Grid>
+        <Rectangle Fill="#52FFFFFF" Height="807" HorizontalAlignment="Left" Margin="0,-33,0,0" Name="Rectangle1" Stroke="Black" VerticalAlignment="Top" Width="1402" />
+        <Label Content="Add Or Remove Candidates" FontFamily="Gabriola" FontSize="60" FontWeight="Normal" HorizontalAlignment="Left" Margin="415,-8,0,624" Name="Label11" Width="540">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF525252" Offset="0" />
+                    <GradientStop Color="Black" Offset="1" />
+                </LinearGradientBrush>
+            </Label.Foreground>
+            <Label.Background>
+                <SolidColorBrush />
+            </Label.Background>
+        </Label>
+        <TextBlock FontSize="25" FontStyle="Normal" FontWeight="Bold" Foreground="Black" Height="38" HorizontalAlignment="Center" Margin="10,102,993,0" Name="TextBlock4" Text="______________________________________" TextAlignment="Center" VerticalAlignment="Top" Width="341" />
+        <TextBlock FontFamily="Segoe Print" FontSize="25" FontStyle="Normal" FontWeight="Bold" Foreground="Black" Height="45" HorizontalAlignment="Center" Margin="19,91,993,0" Name="TextBlock2" Text="Class Representatives" TextAlignment="Left" VerticalAlignment="Top" Width="332" />
+        <TextBlock FontFamily="Segoe Print" FontSize="25" FontStyle="Normal" FontWeight="Bold" Foreground="#FF5A5A5A" Height="37" HorizontalAlignment="Center" Margin="19,132,1260,0" Name="TextBlock3" Text="Girls" TextAlignment="Left" VerticalAlignment="Top" Width="65" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="54,178,0,0" Name="cgcr1" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="24,170,1296,0" Name="TextBlock1" Text="1." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="54,216,0,0" Name="cgcr2" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="24,208,1296,0" Name="TextBlock5" Text="2." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="54,254,0,0" Name="cgcr3" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="24,246,1296,0" Name="TextBlock6" Text="3." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="54,292,0,0" Name="cgcr4" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="24,284,1296,0" Name="TextBlock7" Text="4." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="54,330,0,0" Name="cgcr5" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="24,322,1296,0" Name="TextBlock8" Text="5." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="54,368,0,0" Name="cgcr6" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="24,360,1296,0" Name="TextBlock9" Text="6." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="54,456,0,0" Name="cbcr1" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="24,448,1296,0" Name="TextBlock11" Text="1." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="54,494,0,0" Name="cbcr2" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="24,486,1296,0" Name="TextBlock12" Text="2." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="54,532,0,0" Name="cbcr3" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="24,524,1296,0" Name="TextBlock13" Text="3." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="54,570,0,0" Name="cbcr4" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="24,562,1296,0" Name="TextBlock14" Text="4." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="54,608,0,0" Name="cbcr5" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="24,600,1296,0" Name="TextBlock15" Text="5." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="54,646,0,0" Name="cbcr6" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="24,638,1296,0" Name="TextBlock16" Text="6." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBlock FontFamily="Segoe Print" FontSize="25" FontStyle="Normal" FontWeight="Bold" Foreground="#FF5A5A5A" Height="50" HorizontalAlignment="Center" Margin="19,407,1260,0" Name="TextBlock10" Text="Boys" TextAlignment="Left" VerticalAlignment="Top" Width="65" />
+        <TextBlock FontSize="25" FontStyle="Normal" FontWeight="Bold" Foreground="Black" Height="38" HorizontalAlignment="Center" Margin="368,102,634,0" Name="TextBlock17" Text="______________________________________" TextAlignment="Center" VerticalAlignment="Top" Width="341" />
+        <TextBlock FontFamily="Segoe Print" FontSize="25" FontStyle="Normal" FontWeight="Bold" Foreground="Black" Height="45" HorizontalAlignment="Center" Margin="377,91,635,0" Name="TextBlock18" Text="Cultural Representatives" TextAlignment="Left" VerticalAlignment="Top" Width="332" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="413,178,0,0" Name="cgcl1" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="413,216,0,0" Name="cgcl2" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="413,254,0,0" Name="cgcl3" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="413,292,0,0" Name="cgcl4" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="413,330,0,0" Name="cgcl5" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="413,368,0,0" Name="cgcl6" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBlock FontSize="25" FontStyle="Normal" FontWeight="Bold" Foreground="Black" Height="38" HorizontalAlignment="Center" Margin="728,102,274,0" Name="TextBlock21" Text="______________________________________" TextAlignment="Center" VerticalAlignment="Top" Width="341" />
+        <TextBlock FontFamily="Segoe Print" FontSize="25" FontStyle="Normal" FontWeight="Bold" Foreground="Black" Height="45" HorizontalAlignment="Center" Margin="737,91,275,0" Name="TextBlock22" Text="Sports Representatives" TextAlignment="Left" VerticalAlignment="Top" Width="332" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="773,178,0,0" Name="cgsr1" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="773,216,0,0" Name="cgsr2" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="773,254,0,0" Name="cgsr3" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="773,292,0,0" Name="cgsr4" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="773,330,0,0" Name="cgsr5" Text="" VerticalAlignment="Top" Width="258" />
+        <TextBox Background="#AFFFFFFF" BorderBrush="#FFCE8632" FontSize="20" Height="32" HorizontalAlignment="Left" Margin="773,368,0,0" Name="cgsr6" Text="" VerticalAlignment="Top" Width="258" />
+        <Button BorderBrush="Green" Content="Save List          " Cursor="Hand" FontFamily="Cambria" FontSize="18" FontStyle="Normal" FontWeight="Bold" Height="46" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Margin="1195,373,0,0" Name="save" VerticalAlignment="Top" Width="171">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Transparent" Offset="0" />
+                    <GradientStop Color="#FF2CBE1B" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="383,178,937,0" Name="TextBlock25" Text="1." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="383,216,937,0" Name="TextBlock26" Text="2." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="383,254,937,0" Name="TextBlock27" Text="3." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="383,292,937,0" Name="TextBlock28" Text="4." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="383,330,937,0" Name="TextBlock29" Text="5." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="383,368,937,0" Name="TextBlock30" Text="6." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="737,178,583,0" Name="TextBlock37" Text="1." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="737,216,583,0" Name="TextBlock38" Text="2." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="737,254,583,0" Name="TextBlock39" Text="3." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="737,292,583,0" Name="TextBlock40" Text="4." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="737,330,583,0" Name="TextBlock41" Text="5." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <TextBlock FontSize="21" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="32" HorizontalAlignment="Center" Margin="737,368,583,0" Name="TextBlock42" Text="6." TextAlignment="Left" VerticalAlignment="Top" Width="24" />
+        <Button BorderBrush="DarkRed" Content="Clear List         " Cursor="Hand" FontFamily="Cambria" FontSize="18" FontStyle="Normal" FontWeight="Bold" Height="46" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Margin="1195,430,0,0" Name="clear" VerticalAlignment="Top" Width="171">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Transparent" Offset="0" />
+                    <GradientStop Color="#FFBE1B1B" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Image Height="40" HorizontalAlignment="Left" Margin="1200,377,0,0" Name="sv" Stretch="UniformToFill" VerticalAlignment="Top" Width="40" Source="/VotingApp;component/Images/Save_64.png" Opacity="0.6" />
+        <Image Height="42" HorizontalAlignment="Left" Margin="1200,433,0,0" Name="clr" Stretch="Uniform" VerticalAlignment="Top" Width="42" Source="/VotingApp;component/Images/CCleaner-Grey-256.png" Opacity="0.6" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="1119,48,0,0" Name="TextBlock19" Text="©2013 Aravind &amp; Akshith" VerticalAlignment="Top" FontSize="18" />
+    </Grid>
+</Window>

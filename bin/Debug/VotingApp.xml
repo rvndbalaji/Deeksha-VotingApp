@@ -1,0 +1,110 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+VotingApp
+</name>
+</assembly>
+<members>
+<member name="M:VotingApp.cand.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:VotingApp.cand">
+	<summary>
+cand
+</summary>
+</member><member name="M:VotingApp.abt.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:VotingApp.abt">
+	<summary>
+abt
+</summary>
+</member><member name="M:VotingApp.pass.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:VotingApp.pass">
+	<summary>
+pass
+</summary>
+</member><member name="M:VotingApp.win.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:VotingApp.win">
+	<summary>
+win
+</summary>
+</member><member name="M:VotingApp.vote.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:VotingApp.vote">
+	<summary>
+vote
+</summary>
+</member><member name="M:VotingApp.MainWindow.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:VotingApp.MainWindow">
+	<summary>
+MainWindow
+</summary>
+</member><member name="M:VotingApp.Application.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:VotingApp.Application.Main">
+	<summary>
+Application Entry Point.
+</summary>
+</member><member name="T:VotingApp.Application">
+	<summary>
+Application
+</summary>
+</member><member name="P:VotingApp.My.MyWpfExtension.Application">
+	<summary>
+ Returns the application object for the running application
+ </summary>
+</member><member name="P:VotingApp.My.MyWpfExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:VotingApp.My.MyWpfExtension.User">
+	<summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member><member name="P:VotingApp.My.MyWpfExtension.Log">
+	<summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member><member name="P:VotingApp.My.MyWpfExtension.Windows">
+	<summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member><member name="T:VotingApp.My.MyWpfExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+	<remarks></remarks>
+</member><member name="P:VotingApp.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:VotingApp.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:VotingApp.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

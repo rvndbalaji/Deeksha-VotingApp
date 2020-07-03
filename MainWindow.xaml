@@ -1,0 +1,59 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Deeksha Voting App" Height="371" Width="710" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Name="main" Icon="/VotingApp;component/Images/vote2.ico" xmlns:my="http://schemas.microsoft.com/winfx/2006/xaml/presentation/ribbon">
+    <Window.Background>
+        <ImageBrush ImageSource="/VotingApp;component/Images/bg4.jpg" />
+    </Window.Background>
+    <Grid Width="Auto">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="124*" />
+            <RowDefinition Height="168*" />
+        </Grid.RowDefinitions>
+        <Button Content="Help &amp; Support  " Grid.Row="1" Height="57" HorizontalAlignment="Right" Margin="0,141,511,0" Name="hlp2" VerticalAlignment="Top" Width="197" FlowDirection="LeftToRight" HorizontalContentAlignment="Right" FontFamily="Gabriola" FontSize="25" Cursor="Hand" FontWeight="Normal" FontStyle="Normal">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                    <GradientStop Color="#FF468EE9" Offset="0.219" />
+                    <GradientStop Color="Transparent" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+            <Button.BorderBrush>
+                <SolidColorBrush />
+            </Button.BorderBrush>
+        </Button>
+        <my:RibbonGroup CanAddToQuickAccessToolBarDirectly="False" Height="67" HorizontalAlignment="Right" Margin="0,-10,-30,0" Name="banner" VerticalAlignment="Top" Width="744">
+            <my:RibbonGroup.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#9D2EA5F0" Offset="0.156" />
+                    <GradientStop Color="Transparent" Offset="1" />
+                </LinearGradientBrush>
+            </my:RibbonGroup.Background>
+            <my:RibbonGroup.ContextMenu>
+                <ContextMenu IsEnabled="False" Visibility="Hidden" />
+            </my:RibbonGroup.ContextMenu>
+        </my:RibbonGroup>
+        <TextBlock FontSize="22" FontStyle="Normal" FontWeight="Normal" Foreground="#FF5A5A5A" Height="33" HorizontalAlignment="Center" Margin="292,40,270,0" Name="TextBlock1" Text="Welcome to" TextAlignment="Center" VerticalAlignment="Top" Width="126" />
+        <TextBlock FontSize="35" FontStyle="Normal" FontWeight="Normal" Foreground="Black" Height="61" HorizontalAlignment="Center" Margin="181,63,160,0" Name="TextBlock2" Text="Deeksha Voting App" TextAlignment="Center" VerticalAlignment="Top" Width="347" />
+        <TextBlock Background="{x:Null}" FontSize="19" FontStyle="Normal" FontWeight="Normal" Foreground="Black" Height="27" HorizontalAlignment="Center" Margin="436,134,8,0" Name="TextBlock3" Text="Programmed &amp; designed by" TextAlignment="Center" VerticalAlignment="Top" Width="244" Grid.Row="1" />
+        <TextBlock Background="{x:Null}" FlowDirection="LeftToRight" FontFamily="Palatino Linotype" FontSize="19" FontStyle="Italic" FontWeight="Bold" Foreground="Black" Height="30" HorizontalAlignment="Left" Margin="370,161,0,0" Name="TextBlock5" Text="Aravind Balaji &amp; Akshith Narayan" TextAlignment="Center" VerticalAlignment="Top" Width="310" Grid.Row="1" />
+        <Button BorderBrush="Green" Content="Let the Voting Begin!" Cursor="Hand" FontFamily="Segoe UI" FontSize="17" FontStyle="Normal" FontWeight="Normal" Height="43" HorizontalAlignment="Left" Margin="369,41,0,0" Name="begin" VerticalAlignment="Top" Width="245" Grid.Row="1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#05FFFFFF" Offset="0" />
+                    <GradientStop Color="#FF27B843" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button BorderBrush="Green" ClickMode="Release" Content="Add/Remove Candidates" Cursor="Hand" FontFamily="Segoe UI" FontSize="17" FontStyle="Normal" FontWeight="Normal" Height="43" HorizontalAlignment="Left" IsEnabled="True" Margin="96,41,0,0" Name="edit" Opacity="1" VerticalAlignment="Top" Width="245" Grid.Row="1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#05FFFFFF" Offset="0" />
+                    <GradientStop Color="#FF27B843" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBlock FontSize="25" FontStyle="Normal" FontWeight="Bold" Foreground="#FF5A5A5A" Height="38" HorizontalAlignment="Center" Margin="-26,90,-30,0" Name="TextBlock11" Text="____________________________________________________________________________________" TextAlignment="Left" VerticalAlignment="Top" Width="744" Grid.Row="1" />
+        <Image Height="104" HorizontalAlignment="Left" Margin="119,40,0,0" Name="Image1" Stretch="Fill" VerticalAlignment="Top" Width="68" Source="/VotingApp;component/Images/Deeksha.jpg" Grid.RowSpan="2" />
+        <Image Grid.Row="1" Height="55" HorizontalAlignment="Left" Margin="0,142,0,0" Name="hlp1" Stretch="Uniform" VerticalAlignment="Top" Width="55" Source="/VotingApp;component/Images/help.ico" Cursor="Hand" />
+    </Grid>
+</Window>
